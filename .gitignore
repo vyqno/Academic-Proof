@@ -12,8 +12,11 @@ docs/
 
 # Environment files - NEVER COMMIT THESE
 .env
-*.env
-.env.*
+.env.local
+.env.*.local
+
+# Allow .env.example
+!.env.example
 
 # Coverage files
 lcov.info
