@@ -2,7 +2,7 @@
 cache/
 out/
 
-# Ignores development broadcast logs
+# Broadcast logs - Keep deployment history, ignore local Anvil runs
 !/broadcast
 /broadcast/*/31337/
 /broadcast/**/dry-run/
