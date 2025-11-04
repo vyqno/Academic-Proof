@@ -502,7 +502,7 @@ MIT License - see LICENSE file for details
 
 For questions or support:
 - Open an issue on GitHub
-- Contact: [your-contact-info]
+- Contact: 0x27.vyn@proton.me
 
 ## Acknowledgments
 
