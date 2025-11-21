@@ -1,0 +1,40 @@
+[
+  {
+    "type": "function",
+    "name": "getUniversity",
+    "inputs": [{ "name": "universityId", "type": "uint256" }],
+    "outputs": [
+      {
+        "name": "university",
+        "type": "tuple",
+        "components": [
+          { "name": "admin", "type": "address" },
+          { "name": "name", "type": "string" },
+          { "name": "country", "type": "string" },
+          { "name": "metadataURI", "type": "string" },
+          { "name": "isActive", "type": "bool" },
+          { "name": "requiredSigners", "type": "uint256" },
+          { "name": "registeredAt", "type": "uint256" }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getUniversityByAdmin",
+    "inputs": [{ "name": "admin", "type": "address" }],
+    "outputs": [{ "name": "universityId", "type": "uint256" }],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "isAuthorizedSigner",
+    "inputs": [
+      { "name": "universityId", "type": "uint256" },
+      { "name": "signer", "type": "address" }
+    ],
+    "outputs": [{ "name": "", "type": "bool" }],
+    "stateMutability": "view"
+  }
+]
